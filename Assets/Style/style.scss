@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+header{
+    nav{
+       .container{
+        
+        
+        .row{
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                font-weight: 800;
+                font-size: 20px;
+            }
+        .menu-links{
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                margin: 0;
+                li{
+                    margin-right: 30px;
+                    a{
+                        color: black;
+                        font-weight: 600;
+                    }
+                }
+
+            }
+        }
+        }
+       }
+    }
+}
+
+main{
+    #slider{
+        .mySwiper{
+            .swiper-slide{
+                width: 100%;
+                height: 500px;
+                .info{
+                    position: absolute;
+                    top: 35%;
+                    left: 15%;
+                    .title{
+                        span{
+                            font-size: 30px;
+
+                        }
+                        p{
+                            font-size: 30px;
+                            font-weight: 900;
+                            span{
+                                color: green;
+                            }
+                        }
+                    }
+                   
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+    }
+    #counter{
+
+        .container{
+            padding: 60px 0;
+            .row{
+                display: flex;
+                justify-content: space-evenly;
+                .box{
+                    display: flex;
+                    .icon{
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: green;
+                        i{
+                            font-size: 30px;
+                        }
+                        margin-right: 10px;
+                    }
+                    .info{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .count{
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        .title{
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: rgb(143, 164, 143);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #MyIntro{
+        .container{
+            .row{
+                .scleft{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        height: 650px;
+                        width: 500px;
+                        border-radius: 12px;
+                    }
+                }
+                .scright{
+                   margin-top: 50px;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: space-between;
+                    .Info{
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 60px;
+                        .title{
+                            font-size:16px;
+                            font-weight: 500;
+                            color: rgb(149, 177, 149);
+                            }
+                        .SubTitle{
+                            font-size:25px;
+                            font-weight: 500;
+                        }
+                        .desc{
+                            font-size: 16px;
+                            
+                        }
+                    }
+                    .Infos{
+                       margin-bottom: 45px;
+                        ul{
+                            padding: 0;
+                            li{
+                                color: black;
+                                font-size: 20px;
+                                font-weight: 600;
+                                
+                                span{
+                                    
+                                    color: rgb(149, 177, 149);
+                                    margin-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .Hobbies{
+                       
+                        ul{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            li{
+                                border-left: 3px solid rgb(149, 177, 149);
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-right: 25px;
+                                div{
+                                    width: 30px;
+                                    height: 30px;
+                                    margin-left: 10px;
+                                    border-radius: 45px;
+                                    background-color: rgb(149, 177, 149);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                span{
+                                    margin-left: 10px;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    #Skills{
+        
+        .container{
+            margin-top: 100px;
+            .Infos{
+                display: flex;
+               flex-direction: column;
+               justify-content: center;
+               .title{
+                display: flex;
+                justify-content: center;
+                color: rgb(149, 177, 149);
+                font-weight: 600;
+                font-size: 20px;
+
+               }
+               .subTitle{
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 30px;
+               }
+               .desc{
+                display: flex;
+                justify-content: center;
+                font-weight: 500;
+                opacity: 0.6;
+               }
+            }
+        }
+    }
+}
